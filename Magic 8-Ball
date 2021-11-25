@@ -1,3 +1,4 @@
+# Basic program that will return Magic 8-Ball answers for a question
 import random
 name = "Jerome"
 question = "Will I get laid tonight?"
