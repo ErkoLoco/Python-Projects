@@ -1,0 +1,25 @@
+# Program that gives you the cost to ship under different conditions
+weight = 4
+# Ground Shipping
+if weight <= 2:
+  cost_ground = 1.5 * weight + 20
+elif weight < 6:
+  cost_ground = 3.0 * weight + 20
+elif weight < 10:
+  cost_ground = 4 * weight + 20
+else:
+  cost_ground = 4.75 * weight + 20
+print(cost_ground)
+# Ground Shipping Premium
+cost_ground_premium = 125.00
+print("Ground Shipping Premium $" ,cost_ground_premium)
+# Done Shipping
+if weight <= 2:
+  cost_drone = 4.5 * weight 
+elif weight < 6:
+  cost_drone = 9.0 * weight 
+elif weight < 10:
+  cost_drone = 12 * weight 
+else:
+  cost_drone = 14.25 * weight 
+print(cost_drone)
